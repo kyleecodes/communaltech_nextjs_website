@@ -1,21 +1,19 @@
-import { BlogPosts } from 'app/components/posts'
+// import { BlogPosts } from 'app/components/posts'
+import Socials from "./components/socials";
 
 export default function Page() {
   return (
     <section>
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-        My Portfolio
+        Kylee Fields Portfolio
       </h1>
       <p className="mb-4">
-        {`I'm a Vim enthusiast and tab advocate, finding unmatched efficiency in
-        Vim's keystroke commands and tabs' flexibility for personal viewing
-        preferences. This extends to my support for static typing, where its
-        early error detection ensures cleaner code, and my preference for dark
-        mode, which eases long coding sessions by reducing eye strain.`}
+        {`Welcome! I'm a developer advocate and code hobbyist, bridging the gap between code and community. Since 2021, my work has cultivated sustainable tech communities for startups and non-profits. My greatest passions are cutting-edge technology, enabling innovation, and living life in dark mode. 🌙`}
       </p>
-      <div className="my-8">
-        <BlogPosts />
+      <div className="mt-6 mb-4">
+        Connect with me:
+        <Socials />
       </div>
     </section>
-  )
+  );
 }

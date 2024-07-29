@@ -44,7 +44,7 @@ export default function Socials() {
             href="https://www.linkedin.com/in/kyleecodes/"
           >
             <ArrowIcon />
-            <p className="ml-2 h-">linkedin</p>
+            <p className="ml-2 h-">LinkedIn</p>
           </a>
         </li>
         <li>

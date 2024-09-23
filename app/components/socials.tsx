@@ -36,7 +36,7 @@ export default function Socials() {
   return (
     <div className="mb-12">
       <ul className="font-sm mt-2 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300">
-        <li>
+        {/* <li>
           <a
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
             rel="noopener noreferrer"
@@ -57,7 +57,7 @@ export default function Socials() {
             <ArrowIcon />
             <p className="ml-2 h-7">GitHub</p>
           </a>
-        </li>
+        </li> */}
         <li>
           <a
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"

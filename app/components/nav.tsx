@@ -4,9 +4,17 @@ const navItems = {
   "/": {
     name: "home",
   },
-  "https://docs.google.com/document/d/1pcONkCahvczj8bVnzg629qPbHk0ekt74byzNRibgQEc/edit?usp=sharing":
+  "https://communaltech.notion.site/Kylee-Fields-Communal-Tech-Content-Portfolio-649876b071da4e7dacd8116b89b1ccfe?pvs=4":
     {
-      name: "resume",
+      name: "content",
+    },
+    "https://github.com/kyleecodes":
+    {
+      name: "github",
+    },
+    "https://www.linkedin.com/in/kyleecodes/":
+    {
+      name: "linkedin",
     },
   // '/blog': {
   //   name: 'blog',
@@ -27,6 +35,8 @@ export function Navbar() {
                 <Link
                   key={path}
                   href={path}
+                  target="_blank" 
+                  rel="noopener noreferrer"
                   className="transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative py-1 px-2 m-1"
                 >
                   {name}

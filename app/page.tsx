@@ -8,23 +8,19 @@ export default function Page() {
         Welcome to Kylee's corner of the internet 🌐
       </h1>
       <p className="mb-4">
-        {`Greetings! 👋 My name is Kylee Fields (she/her).`}
+        {`My name is Kylee Fields (she/her), and I bridge the gap between community + code!`}
       </p>
       <p className="mb-4">
         {`
-        I'm an open-source developer advocate and community builder from the East Coast of the United States.  `}
+        I'm an open-source developer advocate and community builder from the East Coast of the United States. 🌎`}
       </p>
       <p className="mb-4">
         {`
-        My specialization is in bridging the gap between code + community. `}
+        Since 2021, my work has cultivated innovative communities, sustainable programs, and technical solutions for open-source startups and non-profits.`}
       </p>
       <p className="mb-4">
         {`
-        Since 2021, my work has cultivated innovative communities, sustainable programs, and technical solutions for open-source startups and non-profits. 🌎 `}
-      </p>
-      <p className="mb-4">
-        {`
-        My greatest motivators? Empowering developers to build, designing problem-solving systems, connecting people, and the joy of coding from dark mode terminals. 🌙 `}
+        I specialize in enabling developers to build, and designing systems to solve-problems. Most days, you can find me coding from dark mode terminals. 🌙 `}
       </p>
       <div className="mt-6 mb-4">
         Let's Connect!

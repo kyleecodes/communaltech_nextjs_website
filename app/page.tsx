@@ -8,22 +8,14 @@ export default function Page() {
         Welcome to Kylee's corner of the internet 🌐
       </h1>
       <p className="mb-4">
-        {`My name is Kylee Fields (she/her), and I bridge the gap between community + code.  🌐`}
+        {`My name is Kylee (she/her) and I’m a developer advocate and open-source developer specializing in bridging the gap between community + code. 🌎`}
       </p>
       <p className="mb-4">
         {`
-        I'm an open-source developer advocate and community builder from the East Coast of the United States. 🌎`}
-      </p>
-      <p className="mb-4">
-        {`
-        Since 2021, my work has cultivated innovative digital communities, sustainable programs, and technical solutions for open-source startups and tech non-profits. #techforgood 🌱`}
-      </p>
-      <p className="mb-4">
-        {`
-        I specialize in enabling developers to build + designing systems to solve developer's problems. This can look like content creation, evangelism, technical writing, and building helpful internal tools. 👩‍💻 `}
+        Since 2021, my work has cultivated collaborative developer communities, innovative programs, sustainable product adoption, and software solutions for global tech organizations. Currently working in the #techforgood space, I have experience with high-growth startups, and I’m graduating with my Bachelors in Computer Science in winter 2024.`}
       </p>
       <div className="mt-6 mb-4">
-        Let's Connect!
+      Let's Connect! 🤝 I am always looking to collaborate with passionate technologists and organizations.
         <Socials />
       </div>
     </section>

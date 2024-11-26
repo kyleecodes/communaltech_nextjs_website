@@ -63,10 +63,20 @@ export default function Socials() {
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://form.typeform.com/to/vOzyqBjF"
+            href="mailto:contact@communaltech.com?subject=Email Kylee / Communal Tech"
           >
             <ArrowIcon />
             <p className="ml-2 h-7">Email: contact@communaltech.com</p>
+          </a>
+          <li></li>
+          <a
+            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://calendly.com/communaltech/coffee-chat-15-30min"
+          >
+            <ArrowIcon />
+            <p className="ml-2 h-7">Calendly: Schedule a 15-30 min call</p>
           </a>
         </li>
       </ul>

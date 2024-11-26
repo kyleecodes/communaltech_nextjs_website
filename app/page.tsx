@@ -8,7 +8,7 @@ export default function Page() {
         Welcome to Kylee's corner of the internet 🌐
       </h1>
       <p className="mb-4">
-        {`My name is Kylee, and I’m a developer advocate / tech community manager / open-source developer with a passion for bridging the gap between community + code! 🌎`}
+        {`My name is Kylee, I’m a developer advocate / tech community manager / open-source developer with a passion for bridging the gap between community + code! 🌎`}
       </p>
       <p className="mb-4">
         {`
@@ -16,7 +16,7 @@ export default function Page() {
       </p>
       <p className="mb-4">
         {`
-         Currently consulting under the name “Communal Tech” (because tech is for everyone!) I have worked with open-source startups, blockchain companies, and in the social impact space. 💙`}
+         Currently consulting under the name “Communal Tech” (because tech is for everyone!) I've worked with open-source startups, blockchain companies, and in the social impact space. 💙`}
       </p>
       <div className="mt-6 mb-4">
         Let's Connect! 🤝 I am always looking to collaborate with passionate

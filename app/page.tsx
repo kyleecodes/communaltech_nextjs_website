@@ -78,7 +78,7 @@ export default function Page() {
             mb: 3,
             flexDirection: { xs: 'column', sm: 'row' }
           }}>
-            <Avatar
+            {/* <Avatar
               src="/images/profile.png"
               alt="Kylee Fields"
               sx={{
@@ -90,13 +90,11 @@ export default function Page() {
                 flexShrink: 0,
                 mb: { xs: 3, sm: 0 }
               }}
-            />
+            /> */}
             <Box sx={{ flex: 1 }}>
-              <Typography variant="body1" sx={{ color: '#fff', mb: 2 }}>
+              <Typography variant="body1" sx={{ color: '#fff', mb: 1 }}>
                 Hi, I'm Kylee ("Ky" for short) I'm an open-source developer and developer advocate, passionate about empowering developers through education and open-source. 🚀
               </Typography>
-
-
             </Box>
           </Box>
           <Typography variant="body1" sx={{ color: '#fff', mb: 2 }}>

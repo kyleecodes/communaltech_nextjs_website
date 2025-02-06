@@ -1,5 +1,11 @@
 # Portfolio Blog Starter
 
+# TODO: 
+- DRY page.tsx
+- add featured projects 
+- add photo carousel
+- make more ... cool lol
+
 This is a porfolio site template complete with a blog. Includes:
 
 - MDX and Markdown support

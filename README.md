@@ -5,6 +5,7 @@
 - add featured projects 
 - add photo carousel
 - make more ... cool lol
+- config lighthouse testing action
 
 This is a porfolio site template complete with a blog. Includes:
 

@@ -31,7 +31,7 @@ const content = [
   {
     type: 'blog',
     title: 'A Love Letter to Crypto',
-    description: 'Read my confession of love while addressing the elephant in the room.',
+    description: 'Read my crypto confessions.',
     link: '#',
     series: 'Career Growth'
   },

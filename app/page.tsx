@@ -93,7 +93,7 @@ export default function Page() {
             /> */}
             <Box sx={{ flex: 1 }}>
               <Typography variant="body1" sx={{ color: '#fff', mb: 1 }}>
-                Hi, I'm Kylee ("Ky" for short) I'm an open-source developer and developer advocate, passionate about empowering developers through education and open-source. 🚀
+                Hi, I'm Kylee ("Ky" for short) I'm an open-source developer and developer advocate, passionate about empowering developers through education and community. 🚀
               </Typography>
             </Box>
           </Box>

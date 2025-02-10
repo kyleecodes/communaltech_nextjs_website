@@ -30,6 +30,13 @@ const content = [
   },
   {
     type: 'blog',
+    title: 'Ollama Local LLM in Cursor for OSS Maintainers',
+    description: 'How I use Ollama Local LLM with Cursor to enable AI workflows as an open-source maintainer',
+    link: '#',
+    series: 'AI'
+  },
+  {
+    type: 'blog',
     title: 'A Love Letter to Crypto',
     description: 'Read my crypto confessions.',
     link: '#',
@@ -45,7 +52,7 @@ const content = [
   {
     type: 'blog',
     title: 'Pull Request Target Guide',
-    description: 'A guide to using Pull Request Target to make your open source contributions secure and easy.',
+    description: 'A guide to using Pull Request Target to safely & securely merge community pull requests.',
     link: '#',
     series: 'GitHub Actions'
   },

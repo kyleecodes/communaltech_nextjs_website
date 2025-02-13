@@ -1057,7 +1057,7 @@ export default function Page() {
   return (
     <section>
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-        Welcome to Kylee's corner of the internet 🌐
+        Welcome to Kylee's corner of the internet
       </h1>
       <div className="mb-4">
         {`My name is Kylee, I’m a developer advocate / tech community manager / open-source developer with a passion for bridging the gap between community + code! 🌎`}

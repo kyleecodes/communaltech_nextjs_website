@@ -1,10 +1,11 @@
-# Portfolio Blog Starter
+# Communal Tech Website Code
 
 # TODO: 
+- config lint / formatter 
 - DRY page.tsx
 - add featured projects 
 - add photo carousel
-- make more ... cool lol
+- fix AI generated spaghetti code
 - config lighthouse testing action
 
 This is a porfolio site template complete with a blog. Includes:

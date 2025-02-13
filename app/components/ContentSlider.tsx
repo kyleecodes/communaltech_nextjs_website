@@ -11,14 +11,15 @@ import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import { useTheme } from '@mui/material/styles';
 import useMediaQuery from '@mui/material/useMediaQuery';
+import { notDeepEqual } from 'assert';
 
 const content = [
   {
     type: 'blog',
-    title: 'Flexible Backend Development for Open Source',
-    description: 'Insights into building accessible tech stacks for open source projects.',
-    image: '/images/blog-1.jpg',
-    link: '#',
+    title: 'How to Increase Global Developer Reach for Open-Source Organizations: with Docker and PostgreSQL',
+    description: 'Insights from building flexible backend tech stacks for open source.',
+    // image: '/images/blog-1.jpg',
+    link: 'https://www.linkedin.com/pulse/increasing-global-developer-coverage-open-source-docker-kylee-fields-jgrge/?trackingId=7pcee5%2B1SdargtHEY66I3A%3D%3D',
     series: 'Docker'
   },
   {
@@ -30,15 +31,15 @@ const content = [
   },
   {
     type: 'blog',
-    title: 'Ollama Local LLM in Cursor for OSS Maintainers',
-    description: 'How I use Ollama Local LLM with Cursor to enable AI workflows as an open-source maintainer',
+    title: 'Reviewing AI Privacy-First Devtools ',
+    description: 'First impressions on the latest AI privacy-first devtools, where they are at, and how they can evolve.',
     link: '#',
     series: 'AI'
   },
   {
     type: 'blog',
-    title: 'A Love Letter to Crypto',
-    description: 'Read my crypto confessions.',
+    title: 'Lessons Learned from Hype Markets',
+    description: 'Key insights from my experience in the crypto industry, and how timing is everything.',
     link: '#',
     series: 'Career Growth'
   },
@@ -59,7 +60,7 @@ const content = [
   {
     type: 'podcast',
     title: 'Tomorrows Legendary Code',
-    description: 'Visiting the past, present, and future of tech with the best voices in the game.',
+    description: 'Visiting the past, present, and future of tech with the best voices in the game. Taking my experience as a Twitter Spaces host to the next level,launching before All Things Open AI conference. Experienced professionals from big tech companies and startups are confirmed, will you join?',
     link: '#',
     series: 'MARCH 2025'
   }

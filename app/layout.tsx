@@ -15,12 +15,12 @@ export const metadata: Metadata = {
     default: 'Tech 4 Everyone',
     template: '%s | Next.js Portfolio Starter',
   },
-  description: 'Kylee Codes Website.',
+  description: 'Kylee Fields Website.',
   openGraph: {
-    title: 'Kylee Codes Website',
-    description: 'This is Kylee Codes Website',
+    title: 'Kylee Fields Website',
+    description: 'This is Kylee Fields Website',
     url: baseUrl,
-    siteName: 'Kylee Codes Website',
+    siteName: 'Kylee Fields Website',
     locale: 'en_US',
     type: 'website',
   },
@@ -53,7 +53,7 @@ export default function RootLayout({
         GeistMono.variable
       )}
     >
-      <body className="antialiased max-w-xl mx-4 mt-8 lg:mx-auto">
+      <body className="antialiased max-w-xl mx-4 mt-8 sm:mx-auto">
         <CustomCursor />
         <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
           <Navbar />

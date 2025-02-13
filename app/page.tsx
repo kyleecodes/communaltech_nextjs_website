@@ -95,8 +95,8 @@ export default function Page() {
               src="/images/profile.png"
               alt="Kylee Fields pfp"
               sx={{
-                width: { xs: "150%", sm: 120 },
-                height: { xs: "150%", sm: 120 },
+                width: { xs: "100%", sm: 120 },
+                height: { xs: "100%", sm: 120 },
                 // border: '2px solid rgba(80, 200, 255, 0.3)',
                 // boxShadow: "0 0 15px rgba(80, 200, 255, 0.2)",
                 borderRadius: 4,

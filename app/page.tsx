@@ -259,7 +259,7 @@ export default function Page() {
 
         {/* <PhotoCarousel /> */}
 
-        <Typography
+{/*         <Typography
           variant="h5"
           sx={{
             // mb: 3,
@@ -286,7 +286,7 @@ export default function Page() {
             Site in active development: click here for content links.
           </Link>
         </Typography>
-        <ContentSlider />
+        <ContentSlider /> */}
 
         {/* 
         <Typography

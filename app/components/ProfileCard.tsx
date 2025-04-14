@@ -44,7 +44,7 @@ export default function ProfileCard() {
           sx={{
             position: "relative",
             width: { xs: "100%", sm: 120 },
-            height: { xs: "100%", sm: 120 },
+            height: { xs: 200, sm: 120 },
             borderRadius: 4,
             flexShrink: 0,
             mb: { xs: 3, sm: 0 },
@@ -55,6 +55,7 @@ export default function ProfileCard() {
             src="/images/profile.png"
             alt="Kylee Fields pfp"
             fill
+            sizes="(max-width: 600px) 100vw, 120px"
             style={{ objectFit: "cover" }}
             priority
           />
@@ -66,26 +67,28 @@ export default function ProfileCard() {
         </Box>
       </Box>
 
+
       <List sx={{ color: "#fff", mb: 2 }}>
+
         <ListItem>
-          <ListItemText primary="⭐ Engineer Developer Enablement – Optimize internal tools, tech stacks, and onboarding processes to enhance developer productivity and reduce friction." />
+          <ListItemText primary="⭐ As a Software Engineer - I specialize in open-source, testing, CI/CD, and mainly work with full-stack frameworks using JavaScript, TypeScript, Python, and Linux." />
+        </ListItem>
+        <ListItem>
+          <ListItemText primary="⭐ As a Developer Advocate - I enable engineers through engineering, code review, business strategy, community program management, knowledge base management, onboarding and education." />
         </ListItem>
 
         <ListItem>
-          <ListItemText primary="⭐ Drive Open-Source Product Growth – Lead initiatives that accelerate contributions, ecosystem adoption, and user engagement." />
+          <ListItemText primary="⭐ As a Freelancer - I helped small businesses in Pennsylvania launch on the web, architect internal tools, and optimize SEO." />
         </ListItem>
 
         <ListItem>
-          <ListItemText primary="⭐ Bridge Engineering with Strategy – Design feedback frameworks for translating developer insights into key business solutions." />
+          <ListItemText primary="⭐ As a Student - I have a Bachelors in Computer Science from the University of Maryland where I helped organize hackathons. " />
         </ListItem>
 
         <ListItem>
-          <ListItemText primary="⭐ Maintain Knowledge Bases – Build and maintain structured, accessible content & documentation that empower developers to succeed." />
+          <ListItemText primary="My favorite accomplishments so far - Successfully onboarding 100+ developers onto open-source / tech products and doubling the capacity of engineering teams." />
         </ListItem>
 
-        <ListItem>
-          <ListItemText primary="⭐ Manage Developer Communities – Successfully onboarded 100+ developers onto open-source and developer tools." />
-        </ListItem>
       </List>
     </Paper>
   );

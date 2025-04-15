@@ -73,8 +73,9 @@ export default function ProfileCard() {
         <ListItem>
           <ListItemText primary="⭐ As a Software Engineer - I specialize in open-source, testing, CI/CD, and mainly work with full-stack frameworks using JavaScript, TypeScript, Python, and Linux." />
         </ListItem>
+        
         <ListItem>
-          <ListItemText primary="⭐ As a Developer Advocate - I enable engineers through engineering, code review, business strategy, community program management, knowledge base management, onboarding and education." />
+          <ListItemText primary="⭐ As a Developer Advocate - I've doubled the capacity of engineering teams through engineering, code review, business strategy, community program management, knowledge base management, onboarding and education." />
         </ListItem>
 
         <ListItem>
